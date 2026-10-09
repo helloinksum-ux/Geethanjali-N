@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geethanjali N | Senior Content Writer & Strategist</title>
+    <meta name="description" content="Portfolio of Geethanjali N - Senior Content Writer, Content Strategist & Brand Storyteller. Expertise in website copywriting, SEO articles, brand strategy, digital publishing, and social storytelling.">
+    
+    <!-- Favicon (GN Monogram SVG) -->
+    <link rel="icon" type="image/svg+xml" href="gn_logo.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollProgress"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <div class="logo-badge-gn">
+                    <img src="gn_logo.svg" alt="GN Monogram Logo" class="nav-logo-svg">
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">Geethanjali N</span>
+                    <span class="logo-title">Senior Content Writer & Strategist</span>
+                </div>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#about" class="nav-item">About</a>
+                <a href="#selected-work" class="nav-item">Selected Work</a>
+                <a href="#seo-articles" class="nav-item">Published Articles</a>
+                <a href="#what-i-do" class="nav-item">What I Do</a>
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#analytics" class="nav-item">Impact Metrics</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+                <a href="#contact" class="btn btn-primary btn-sm">
+                    <span>Let's Talk</span>
+                    <i data-lucide="arrow-up-right"></i>
+                </a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <i data-lucide="menu" class="open-icon"></i>
+                    <i data-lucide="x" class="close-icon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-glow"></div>
+            <div class="hero-grid-pattern"></div>
+            
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-pill reveal-on-scroll">
+                        <span class="pulse-dot"></span>
+                        <span>Senior Content Writer · Content Strategist · Brand Storyteller</span>
+                    </div>
+
+                    <h1 class="hero-title reveal-on-scroll delay-1">
+                        I MAKE WORDS <span class="text-gradient">WORK HARDER</span>.
+                    </h1>
+
+                    <div class="hero-hook-card reveal-on-scroll delay-2">
+                        <div class="quote-icon"><i data-lucide="sparkles"></i></div>
+                        <p class="hook-text">"Have a brand that needs the right words?"</p>
+                    </div>
+
+                    <p class="hero-description reveal-on-scroll delay-3">
+                        I create content that gives brands a distinct voice, turns ideas into meaningful stories, and connects businesses with the people they want to reach. From website experiences and SEO-driven articles to digital campaigns, social media, and video scripts, I bring together research, strategy, writing, and visual thinking to create content with purpose.
+                    </p>
+
+                    <div class="hero-actions reveal-on-scroll delay-4">
+                        <a href="#contact" class="btn btn-emerald btn-lg">
+                            <span>Let's make something worth reading</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="#selected-work" class="btn btn-glass btn-lg">
+                            <i data-lucide="briefcase"></i>
+                            <span>Explore Selected Work</span>
+                        </a>
+                    </div>
+
+                    <!-- Quick Highlights -->
+                    <div class="hero-stats-grid reveal-on-scroll delay-5">
+                        <div class="hero-stat-card">
+                            <div class="stat-number">6+</div>
+                            <div class="stat-label">Core Industries & Domains</div>
+                        </div>
+                        <div class="hero-stat-card">
+                            <div class="stat-number">SEO #1</div>
+                            <div class="stat-label">Ranked Technical Articles</div>
+                        </div>
+                        <div class="hero-stat-card">
+                            <div class="stat-number">Global</div>
+                            <div class="stat-label">US, UK & India Publishing</div>
+                        </div>
+                        <div class="hero-stat-card">
+                            <div class="stat-number">360°</div>
+                            <div class="stat-label">Web, Video & Script Strategy</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Visual & Portrait Card -->
+                <div class="hero-visual reveal-on-scroll delay-2">
+                    <div class="portrait-card">
+                        <div class="portrait-frame">
+                            <img src="geethanjali.png" alt="Geethanjali N - Senior Content Writer" class="portrait-img">
+                            <div class="portrait-overlay"></div>
+                        </div>
+                        <div class="badge-floating badge-top-right">
+                            <i data-lucide="award"></i>
+                            <div>
+                                <strong class="badge-title">Geethanjali N</strong>
+                                <span class="badge-sub">Senior Content Strategist</span>
+                            </div>
+                        </div>
+                        <div class="badge-floating badge-bottom-left">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <strong class="badge-title">Chennai, India</strong>
+                                <span class="badge-sub">Available Worldwide</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Selected Work Section -->
+        <section class="section work-section" id="selected-work">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-tag">
+                        <i data-lucide="folder-kanban"></i>
+                        <span>Featured Portfolio</span>
+                    </div>
+                    <h2 class="section-title">Selected Work</h2>
+                    <p class="section-subtitle">
+                        Building brand experiences, crafting digital voices, and creating purpose-driven campaigns across industries.
+                    </p>
+                </div>
+
+                <div class="work-showcase-grid">
+                    
+                    <!-- Work Item 01 - Kalyan Sutra -->
+                    <div class="work-card reveal-on-scroll">
+                        <div class="work-card-header">
+                            <span class="work-number">01</span>
+                            <span class="work-category">WEBSITE & BRAND EXPERIENCE</span>
+                        </div>
+                        
+                        <!-- Live Web Frame Preview -->
+                        <div class="work-preview-frame">
+                            <div class="browser-bar">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="browser-url">ks-eosin-omega.vercel.app</span>
+                            </div>
+                            <div class="preview-iframe-box">
+                                <iframe src="https://ks-eosin-omega.vercel.app/" title="Kalyan Sutra Live Website Preview" loading="lazy"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="work-card-body">
+                            <h3 class="work-title">Kalyan Sutra</h3>
+                            <p class="work-subtitle">Building a brand experience from the ground up.</p>
+                            <p class="work-desc">
+                                I worked on the website content and visual design for Kalyan Sutra, bringing together brand messaging, website copy, landing pages, editorial content, and digital marketing communication.
+                            </p>
+                            <div class="work-scope-tags">
+                                <span>Website Content</span>
+                                <span>Visual Design</span>
+                                <span>Landing Pages</span>
+                                <span>SEO Blogs</span>
+                                <span>Instagram Reels</span>
+                                <span>Social Media Content</span>
+                                <span>Meta Ads</span>
+                                <span>Google Ads Copy</span>
+                            </div>
+                        </div>
+                        <div class="work-card-footer">
+                            <a href="https://ks-eosin-omega.vercel.app/" target="_blank" rel="noopener" class="work-link">
+                                <span>Explore Kalyan Sutra (ks-eosin-omega.vercel.app)</span>
+                                <i data-lucide="arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Work Item 02 - Kalyan Musings -->
+                    <div class="work-card reveal-on-scroll">
+                        <div class="work-card-header">
+                            <span class="work-number">02</span>
+                            <span class="work-category">EDITORIAL WEBSITE & BRAND CONTENT</span>
+                        </div>
+
+                        <!-- Live Web Frame Preview -->
+                        <div class="work-preview-frame">
+                            <div class="browser-bar">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="browser-url">km-pink.vercel.app</span>
+                            </div>
+                            <div class="preview-iframe-box">
+                                <iframe src="https://km-pink.vercel.app/" title="Kalyan Musings Live Website Preview" loading="lazy"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="work-card-body">
+                            <h3 class="work-title">Kalyan Musings</h3>
+                            <p class="work-subtitle">Creating a consistent digital voice.</p>
+                            <p class="work-desc">
+                                I worked on the website content and visual design for Kalyan Musings, developing its digital presentation through editorial content, brand messaging, and audience-focused communication.
+                            </p>
+                            <div class="work-scope-tags">
+                                <span>Website Content</span>
+                                <span>Visual Design</span>
+                                <span>Blog Writing</span>
+                                <span>Editorial Planning</span>
+                                <span>Social Media Content</span>
+                                <span>Reels Scripts</span>
+                            </div>
+                        </div>
+                        <div class="work-card-footer">
+                            <a href="https://km-pink.vercel.app/" target="_blank" rel="noopener" class="work-link">
+                                <span>Explore Kalyan Musings (km-pink.vercel.app)</span>
+                                <i data-lucide="arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Work Item 03 - Win in Life Academy -->
+                    <div class="work-card reveal-on-scroll">
+                        <div class="work-card-header">
+                            <span class="work-number">03</span>
+                            <span class="work-category">SEO & EDUCATIONAL CONTENT</span>
+                        </div>
+
+                        <!-- Live Web Frame Preview -->
+                        <div class="work-preview-frame">
+                            <div class="browser-bar">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="browser-url">wininlifeacademy.com</span>
+                            </div>
+                            <div class="preview-iframe-box">
+                                <iframe src="https://wininlifeacademy.com/" title="Win in Life Academy Live Website Preview" loading="lazy"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="work-card-body">
+                            <h3 class="work-title">Win in Life Academy</h3>
+                            <p class="work-subtitle">Making complex technical subjects easier to understand.</p>
+                            <p class="work-desc">
+                                I created website content and educational blogs covering data analytics, cybersecurity, machine learning, and artificial intelligence. My approach focuses on clear explanations, useful structure, and content aligned with what learners and professionals are searching for.
+                            </p>
+                            <div class="work-highlight-badge">
+                                <i data-lucide="trending-up"></i>
+                                <span>Reported outcome: Articles achieved Google rankings for relevant technical keywords.</span>
+                            </div>
+                            <div class="work-scope-tags">
+                                <span>Technical SEO Blogs</span>
+                                <span>Career Guides</span>
+                                <span>Comparison Articles</span>
+                                <span>Educational Content</span>
+                                <span>Search-Focused Writing</span>
+                            </div>
+                        </div>
+                        <div class="work-card-footer">
+                            <a href="https://wininlifeacademy.com/" target="_blank" rel="noopener" class="work-link">
+                                <span>Visit Win in Life Academy (wininlifeacademy.com)</span>
+                                <i data-lucide="arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Work Item 04 - Editorial SEO & Metadata -->
+                    <div class="work-card reveal-on-scroll">
+                        <div class="work-card-header">
+                            <span class="work-number">04</span>
+                            <span class="work-category">INTERNATIONAL DIGITAL PUBLISHING</span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3 class="work-title">Editorial SEO & Metadata</h3>
+                            <p class="work-subtitle">Writing for search without losing editorial relevance.</p>
+                            <p class="work-desc">
+                                At VMG Digital, I worked on SEO meta titles and metadata for international publishing properties, including <strong>US Weekly</strong>, <strong>A360 Media</strong>, and <strong>Bauer UK</strong>. My work focused on concise headlines, search relevance, and aligning metadata with the content and intent of each article.
+                            </p>
+                            <div class="work-scope-tags">
+                                <span>US Weekly</span>
+                                <span>A360 Media</span>
+                                <span>Bauer UK</span>
+                                <span>SEO Meta Titles</span>
+                                <span>Search Intent Alignment</span>
+                                <span>Editorial Headlines</span>
+                            </div>
+                        </div>
+                        <div class="work-card-footer">
+                            <span class="work-tag-sub">VMG Digital International Publishing</span>
+                        </div>
+                    </div>
+
+                    <!-- Work Item 05 - Content Strategy Clinilaunch & Win in Life -->
+                    <div class="work-card reveal-on-scroll">
+                        <div class="work-card-header">
+                            <span class="work-number">05</span>
+                            <span class="work-category">CONTENT STRATEGY</span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3 class="work-title">Clinilaunch & Win in Life</h3>
+                            <p class="work-subtitle">Connecting brand messaging across digital platforms.</p>
+                            <p class="work-desc">
+                                As a Content Strategist at Clinilaunch Research Institute, I worked across website content, landing pages, blogs, video scripts, and social media. I also managed content calendars to support consistent communication across platforms.
+                            </p>
+                            <div class="work-scope-tags">
+                                <span>Website Copy</span>
+                                <span>Landing Pages</span>
+                                <span>Blogs</span>
+                                <span>YouTube Scripts</span>
+                                <span>Instagram Reels</span>
+                                <span>LinkedIn Posts</span>
+                                <span>Content Planning</span>
+                            </div>
+                        </div>
+                        <div class="work-card-footer">
+                            <a href="https://wininlifeacademy.com/" target="_blank" rel="noopener" class="work-link">
+                                <span>Explore Win in Life Academy (wininlifeacademy.com)</span>
+                                <i data-lucide="arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Work Item 06 - Tamil Media & Entertainment -->
+                    <div class="work-card reveal-on-scroll">
+                        <div class="work-card-header">
+                            <span class="work-number">06</span>
+                            <span class="work-category">TAMIL MEDIA & ENTERTAINMENT</span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3 class="work-title">From News Scripts to Campaigns</h3>
+                            <p class="work-subtitle">Storytelling shaped by audience, language, and format.</p>
+                            <p class="work-desc">
+                                My early experience in Tamil media built my foundation in research, scripting, promotional campaigns, and voice-led storytelling.
+                                <br><br>
+                                • <strong>89.4 Tamil FM (Dubai):</strong> Promotional content for <em>Pattas</em>, <em>Darbar</em>, and Lulu's Pongal festival.<br>
+                                • <strong>Puthiya Thalaimurai:</strong> Colloquial Tamil scripts for political satire and selected infotainment stories.<br>
+                                • <strong>Behindwoods News:</strong> Tamil news scripts and voiceovers for YouTube content.
+                            </p>
+                            <div class="work-scope-tags">
+                                <span>Radio Promotions</span>
+                                <span>Movie Campaigns</span>
+                                <span>Political Satire</span>
+                                <span>Infotainment</span>
+                                <span>YouTube Voiceovers</span>
+                            </div>
+                        </div>
+                        <div class="work-card-footer">
+                            <span class="work-tag-sub">Regional Media & Voice-Led Storytelling</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SEO Writing — Published Articles Section -->
+        <section class="section articles-section" id="seo-articles">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-tag">
+                        <i data-lucide="file-text"></i>
+                        <span>Published Content Showcase</span>
+                    </div>
+                    <h2 class="section-title">SEO Writing — Published Articles</h2>
+                    <p class="section-subtitle">
+                        Technical topics. Clear explanations. Search-focused writing. Selected educational articles written for <strong>Win in Life Academy</strong> (<a href="https://wininlifeacademy.com/" target="_blank" rel="noopener" style="color: var(--emerald-primary);">wininlifeacademy.com</a>).
+                    </p>
+                </div>
+
+                <div class="articles-grid">
+                    
+                    <div class="article-item-card reveal-on-scroll" data-article="1">
+                        <div class="article-num">01</div>
+                        <div class="article-info">
+                            <h3>Network Security Associate Skills Required</h3>
+                            <p>Cybersecurity skills and career guidance for aspiring infrastructure professionals.</p>
+                            <span class="article-pill">Cybersecurity & Career Guides</span>
+                        </div>
+                        <div class="article-action">
+                            <button class="btn-text read-article-btn" data-id="art1">
+                                <span>Read Overview</span>
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="article-item-card reveal-on-scroll" data-article="2">
+                        <div class="article-num">02</div>
+                        <div class="article-info">
+                            <h3>Supervised Learning vs Unsupervised Learning</h3>
+                            <p>A clear comparison of two fundamental machine learning approaches and algorithm models.</p>
+                            <span class="article-pill">Machine Learning & AI</span>
+                        </div>
+                        <div class="article-action">
+                            <button class="btn-text read-article-btn" data-id="art2">
+                                <span>Read Overview</span>
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="article-item-card reveal-on-scroll" data-article="3">
+                        <div class="article-num">03</div>
+                        <div class="article-info">
+                            <h3>Tableau Developer vs Tableau Analyst</h3>
+                            <p>An exploration of two distinct data analytics career paths, tooling, and responsibilities.</p>
+                            <span class="article-pill">Data Analytics</span>
+                        </div>
+                        <div class="article-action">
+                            <button class="btn-text read-article-btn" data-id="art3">
+                                <span>Read Overview</span>
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="article-item-card reveal-on-scroll" data-article="4">
+                        <div class="article-num">04</div>
+                        <div class="article-info">
+                            <h3>Top SQL Queries for Data Analysts</h3>
+                            <p>Practical SQL concepts, joins, subqueries, and window functions for data analysis.</p>
+                            <span class="article-pill">Database & SQL</span>
+                        </div>
+                        <div class="article-action">
+                            <button class="btn-text read-article-btn" data-id="art4">
+                                <span>Read Overview</span>
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="article-item-card reveal-on-scroll" data-article="5">
+                        <div class="article-num">05</div>
+                        <div class="article-info">
+                            <h3>Machine Learning vs Deep Learning</h3>
+                            <p>An accessible comparison of related artificial intelligence concepts and neural networks.</p>
+                            <span class="article-pill">Artificial Intelligence</span>
+                        </div>
+                        <div class="article-action">
+                            <button class="btn-text read-article-btn" data-id="art5">
+                                <span>Read Overview</span>
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="article-item-card reveal-on-scroll" data-article="6">
+                        <div class="article-num">06</div>
+                        <div class="article-info">
+                            <h3>How to Become a Data Scientist in 2026</h3>
+                            <p>A career-focused roadmap to the data science learning journey, skills, and industry expectations.</p>
+                            <span class="article-pill">Career Strategy</span>
+                        </div>
+                        <div class="article-action">
+                            <button class="btn-text read-article-btn" data-id="art6">
+                                <span>Read Overview</span>
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="article-item-card reveal-on-scroll" data-article="7">
+                        <div class="article-num">07</div>
+                        <div class="article-info">
+                            <h3>Top AI Projects for Beginners in 2026</h3>
+                            <p>Hands-on project ideas and repositories for learners exploring artificial intelligence applications.</p>
+                            <span class="article-pill">AI Projects</span>
+                        </div>
+                        <div class="article-action">
+                            <button class="btn-text read-article-btn" data-id="art7">
+                                <span>Read Overview</span>
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- What I Do Section -->
+        <section class="section services-section" id="what-i-do">
+            <div class="container">
+                <div class="section-header center">
+                    <div class="section-tag">
+                        <i data-lucide="layers"></i>
+                        <span>Capabilities & Expertise</span>
+                    </div>
+                    <h2 class="section-title">What I Do</h2>
+                    <p class="section-subtitle">Combining research, strategy, writing, and visual thinking to build purposeful digital content.</p>
+                </div>
+
+                <div class="services-grid">
+                    
+                    <div class="service-card reveal-on-scroll">
+                        <div class="service-icon"><i data-lucide="layout"></i></div>
+                        <h3>Website Copywriting</h3>
+                        <p>Website messaging, landing pages, brand positioning, and cohesive digital experiences designed to engage and convert.</p>
+                    </div>
+
+                    <div class="service-card reveal-on-scroll">
+                        <div class="service-icon"><i data-lucide="search"></i></div>
+                        <h3>SEO Content</h3>
+                        <p>Search-focused blogs, technical explainers, meta titles, and editorial optimization that rank without losing human readability.</p>
+                    </div>
+
+                    <div class="service-card reveal-on-scroll">
+                        <div class="service-icon"><i data-lucide="megaphone"></i></div>
+                        <h3>Brand & Campaign Copy</h3>
+                        <p>Brand messaging, paid advertisements (Meta & Google Ads), promotional campaigns, and social media copy with a sharp focus.</p>
+                    </div>
+
+                    <div class="service-card reveal-on-scroll">
+                        <div class="service-icon"><i data-lucide="compass"></i></div>
+                        <h3>Content Strategy</h3>
+                        <p>Audience research, editorial planning, content calendars, and cross-platform messaging frameworks for sustained growth.</p>
+                    </div>
+
+                    <div class="service-card reveal-on-scroll">
+                        <div class="service-icon"><i data-lucide="video"></i></div>
+                        <h3>Scripts & Social Storytelling</h3>
+                        <p>Instagram Reels, YouTube scripts, Tamil news scripts, and voiceover-led content tailored for video and audio formats.</p>
+                    </div>
+
+                    <div class="service-card reveal-on-scroll">
+                        <div class="service-icon"><i data-lucide="globe"></i></div>
+                        <h3>Digital Publishing</h3>
+                        <p>International editorial workflows, high-performing SEO metadata, and search-oriented headlines for major publishing outlets.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Impact Graphs Section -->
+        <section class="section analytics-section" id="analytics">
+            <div class="container">
+                <div class="section-header center">
+                    <div class="section-tag">
+                        <i data-lucide="bar-chart-2"></i>
+                        <span>Strategy & Content Reach</span>
+                    </div>
+                    <h2 class="section-title">Content Performance & Media Reach</h2>
+                    <p class="section-subtitle">Visualizing editorial distribution, content format breakdown, and SEO keyword search velocity.</p>
+                </div>
+
+                <div class="analytics-grid">
+                    <!-- Chart 1: Publishing & Content Format Mix -->
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <div>
+                                <span class="chart-badge">Content Mix Breakdown</span>
+                                <h3>Format & Platform Distribution</h3>
+                            </div>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="contentMixChart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Chart 2: Domain Competency Matrix -->
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <div>
+                                <span class="chart-badge">Domain Mastery</span>
+                                <h3>Content Strategy & Skill Matrix</h3>
+                            </div>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="competencyChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-col reveal-on-scroll">
+                        <div class="about-card-visual">
+                            <div class="about-tag">Senior Content Strategist</div>
+                            <h3 class="about-quote">"I think in stories. I write with intent."</h3>
+                            <div class="about-experience">
+                                <div class="exp-number">Geethanjali N</div>
+                                <div class="exp-text">Content Writer · Content Strategist · Brand Storyteller</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content-col reveal-on-scroll">
+                        <div class="section-tag">
+                            <i data-lucide="user"></i>
+                            <span>About Me</span>
+                        </div>
+                        <h2 class="section-title">I think in stories. I write with intent.</h2>
+                        <p class="about-lead">
+                            I'm Geethanjali, a Senior Content Writer and Content Strategist with experience across digital publishing, media, healthcare, entertainment, and brand communication.
+                        </p>
+                        <p class="about-body">
+                            My journey began in Tamil media, where I developed a foundation in storytelling, scriptwriting, audience engagement, and adapting information for regional audiences. Over time, I expanded into international digital publishing, SEO, website copywriting, visual design, brand messaging, and content strategy.
+                            <br><br>
+                            Today, I work across the entire content journey — from research and audience understanding to writing, visual presentation, and digital publication. I believe good content does more than fill a page. It communicates clearly, reflects a brand's identity, and gives people a reason to pay attention.
+                        </p>
+
+                        <div class="about-highlights-grid">
+                            <div class="ab-item">
+                                <i data-lucide="check"></i>
+                                <span>International Publishing (US Weekly, A360 Media, Bauer UK)</span>
+                            </div>
+                            <div class="ab-item">
+                                <i data-lucide="check"></i>
+                                <span>End-to-End Website Copy & Visual Design</span>
+                            </div>
+                            <div class="ab-item">
+                                <i data-lucide="check"></i>
+                                <span>Tamil Media, News Scripting & Voiceovers</span>
+                            </div>
+                            <div class="ab-item">
+                                <i data-lucide="check"></i>
+                                <span>Technical SEO & Educational Content</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Timeline -->
+        <section class="section experience-section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-tag">
+                        <i data-lucide="clock"></i>
+                        <span>Career Roadmap</span>
+                    </div>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <p class="section-subtitle">A timeline of roles across digital agency publishing, healthtech, and media platforms.</p>
+                </div>
+
+                <div class="timeline-wrapper">
+                    
+                    <div class="timeline-item reveal-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">April 2026 – Present</div>
+                            <h3 class="timeline-role">Senior Content Writer</h3>
+                            <span class="timeline-company">Marketsof1 Analytical</span>
+                            <p class="timeline-desc">
+                                Website content, visual design, SEO blogs, landing pages, social media content, and advertising campaigns for <strong>Kalyan Sutra</strong> (<a href="https://ks-eosin-omega.vercel.app/" target="_blank" style="color:var(--emerald-primary);">ks-eosin-omega.vercel.app</a>) and <strong>Kalyan Musings</strong> (<a href="https://km-pink.vercel.app/" target="_blank" style="color:var(--emerald-primary);">km-pink.vercel.app</a>).
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">January 2026 – April 2026</div>
+                            <h3 class="timeline-role">Content Strategist</h3>
+                            <span class="timeline-company">Clinilaunch Research Institute</span>
+                            <p class="timeline-desc">
+                                Website and landing page content, blogs, YouTube scripts, Reels, LinkedIn posts, and content calendars.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">November 2022 – May 2025</div>
+                            <h3 class="timeline-role">Content Writer</h3>
+                            <span class="timeline-company">VMG Digital</span>
+                            <p class="timeline-desc">
+                                SEO titles and metadata for international digital publishing properties including US Weekly, A360 Media, and Bauer UK.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">January 2022 – May 2022</div>
+                            <h3 class="timeline-role">Junior Voice Anchor & Content Writer</h3>
+                            <span class="timeline-company">Behindwoods News</span>
+                            <p class="timeline-desc">
+                                Tamil news scripts and voiceovers for YouTube.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">February 2020 – April 2020</div>
+                            <h3 class="timeline-role">Content Writer Intern</h3>
+                            <span class="timeline-company">Puthiya Thalaimurai</span>
+                            <p class="timeline-desc">
+                                Tamil political satire and colloquial infotainment scripts.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">December 2019 – February 2020</div>
+                            <h3 class="timeline-role">Content Writer Intern</h3>
+                            <span class="timeline-company">89.4 Tamil FM, Dubai</span>
+                            <p class="timeline-desc">
+                                Entertainment promotions, festival campaigns (Pattas, Darbar, Lulu's Pongal), Reels, and social media content.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- High Impact Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="contact-card reveal-on-scroll">
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <div class="section-tag">
+                                <i data-lucide="mail"></i>
+                                <span>Let's Create Something Meaningful</span>
+                            </div>
+                            <h2 class="contact-headline">Let's make something worth reading.</h2>
+                            <p class="contact-desc">
+                                Have a brand that needs the right words? I'm interested in projects that bring clarity, creativity, and purpose together — from building website experiences and developing content strategies to creating campaigns that connect with the right audience.
+                            </p>
+
+                            <div class="contact-details-list">
+                                <a href="mailto:geethanjali20n@mail.com" class="contact-detail-item">
+                                    <div class="cd-icon"><i data-lucide="mail"></i></div>
+                                    <div>
+                                        <span class="cd-label">Email Me</span>
+                                        <strong class="cd-value">geethanjali20n@mail.com</strong>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/geethanjali-nagappan-61b0a9310" target="_blank" rel="noopener" class="contact-detail-item">
+                                    <div class="cd-icon"><i data-lucide="linkedin"></i></div>
+                                    <div>
+                                        <span class="cd-label">LinkedIn Profile</span>
+                                        <strong class="cd-value">linkedin.com/in/geethanjali-nagappan-61b0a9310</strong>
+                                    </div>
+                                </a>
+
+                                <div class="contact-detail-item">
+                                    <div class="cd-icon"><i data-lucide="map-pin"></i></div>
+                                    <div>
+                                        <span class="cd-label">Location</span>
+                                        <strong class="cd-value">Chennai, India</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="contact-form-wrap">
+                            <form id="contactForm" class="contact-form">
+                                <h3>Send a Message</h3>
+                                
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="userName">Your Name *</label>
+                                        <input type="text" id="userName" required placeholder="e.g. Anand Kumar" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="userEmail">Email Address *</label>
+                                        <input type="email" id="userEmail" required placeholder="anand@company.com" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="projectScopeSelect">Project Interest</label>
+                                    <select id="projectScopeSelect" class="form-control">
+                                        <option value="Website Copywriting">Website Copywriting & Visual Design</option>
+                                        <option value="SEO Content Strategy">SEO Articles & Technical Writing</option>
+                                        <option value="Brand & Campaign Copy">Brand & Paid Campaign Copy</option>
+                                        <option value="Scripts & Social Storytelling">Scripts (Reels / YouTube / Voiceovers)</option>
+                                        <option value="Digital Publishing">Digital Publishing & Metadata</option>
+                                        <option value="Other Project">Other Strategic Writing Project</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="userMessage">Project Details & Goals *</label>
+                                    <textarea id="userMessage" rows="4" required placeholder="Tell me about your project, goals, or upcoming campaign..." class="form-control"></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-emerald btn-block btn-lg" id="submitBtn">
+                                    <span>Send Message</span>
+                                    <i data-lucide="send"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#hero" class="nav-logo">
+                    <div class="logo-badge-gn">
+                        <img src="gn_logo.svg" alt="GN Monogram Logo" class="nav-logo-svg">
+                    </div>
+                    <span class="logo-name">Geethanjali N</span>
+                </a>
+                <p>© 2026 Geethanjali N. Senior Content Writer · Content Strategist · Brand Storyteller.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#hero">Home</a>
+                <a href="#selected-work">Work</a>
+                <a href="#seo-articles">Articles</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Article Preview Modal -->
+    <div class="modal-overlay" id="articleModal">
+        <div class="modal-container">
+            <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-body" id="modalBodyContent">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div class="toast" id="toastNotification">
+        <i data-lucide="check-circle" class="toast-icon"></i>
+        <span id="toastMessage">Message sent successfully!</span>
+    </div>
+
+    <!-- Application Scripts -->
+    <script src="charts.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

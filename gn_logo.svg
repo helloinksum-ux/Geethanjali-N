@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E172A" />
+      <stop offset="100%" stop-color="#060A12" />
+    </linearGradient>
+
+    <!-- Ring Border Gradient -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+
+    <!-- Monogram Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="emeraldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Base Circle Background -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGrad)" stroke="url(#ringGrad)" stroke-width="12" filter="url(#emeraldGlow)" />
+
+  <!-- Inner Subtle Accent Ring -->
+  <circle cx="256" cy="256" r="218" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="2" stroke-dasharray="8 6" />
+
+  <!-- Elegant Interlocking GN Monogram -->
+  <g text-anchor="middle" dominant-baseline="central">
+    <!-- Stylized Serif Monogram Text GN -->
+    <text x="256" y="260" 
+          font-family="'Instrument Serif', 'Georgia', 'Playfair Display', serif" 
+          font-size="240" 
+          font-weight="bold" 
+          font-style="italic" 
+          letter-spacing="-12" 
+          fill="url(#textGrad)" 
+          stroke="rgba(16, 185, 129, 0.4)" 
+          stroke-width="3">GN</text>
+  </g>
+
+  <!-- Decorative Corner Sparkle -->
+  <circle cx="390" cy="120" r="8" fill="#F59E0B" />
+  <circle cx="120" cy="390" r="6" fill="#10B981" />
+</svg>
